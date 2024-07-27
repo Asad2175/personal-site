@@ -1,0 +1,15 @@
+a.nav-item {
+    color: #959595;
+    font-size: 20px;
+    text-decoration: none;
+}
+a.nav-item:not(:last-child) {
+    margin-right: 60px;
+}
+a.nav-item:hover {
+    color: #FD6F00;
+    cursor: pointer;
+}
+a.nav-item.active {
+    color: #FD6F00;
+}

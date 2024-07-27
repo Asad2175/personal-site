@@ -1,0 +1,8 @@
+html {
+  scroll-padding-top: 150px; /* Height of your fixed header or desired offset */
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif !important;
+  font-style: normal;
+}

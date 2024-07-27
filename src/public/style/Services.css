@@ -1,0 +1,31 @@
+.section-main {
+    margin-top: 80px;
+}
+.section-main p {
+    text-align: center;
+    color: #707070;
+}
+.section-main .boxes {
+    margin-top: 50px;
+}
+.section-main .boxes .box > div {
+    padding-bottom: 25px;
+}
+.section-main .boxes .box > div .inner {
+    padding: 30px;
+    border-radius: 24px;
+    background: #2c2c2c5c;
+    text-align: center;
+}
+.section-main .boxes .box > div .inner img {
+    margin-bottom: 10px;
+}
+.section-main .boxes .box > div .inner .service-name {
+    font-size: 24px;
+    color: #FD6F00;
+    font-weight: 700;
+}
+.section-main .boxes .box > div .inner .service-des {
+    color: #575757;
+    margin-top: 25px;
+}

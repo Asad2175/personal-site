@@ -1,0 +1,97 @@
+.banner-main {
+    display: flex;
+}
+.banner-main .left-banner {
+    flex-basis: 50%;
+    padding: 100px 0;
+}
+.banner-main .right-banner {
+    flex-basis: 50%;
+    align-self: flex-end;
+    position: relative;
+    text-align: right;
+}
+/* .banner-main .right-banner::before {
+content: '';
+display: inline-block;
+background: #2c2c2c5c;
+width: 560px;
+height: 560px;
+border-radius: 50%;
+margin-left: auto;
+position: absolute;
+bottom: 0;
+right: 0;
+z-index: 111;
+} */
+.banner-main .right-banner img {
+    margin-right: 40px;
+    position: relative;
+}
+.banner-main .left-banner .title {
+    color: #707070;
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-main .left-banner .name {
+    color: #959595;
+    font-weight: 900;
+    margin-top: 5px;
+    font-size: 28px;
+}
+.banner-main .left-banner .designation {
+    font-weight: 900;
+    margin-top: 14px;
+    font-size: 70px;
+    background: linear-gradient(to right, #984300 0%, #FD6F00 46%, #CA5900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.banner-main .left-banner .social-icons {
+    margin-top: 30px;
+}
+.banner-main .left-banner .social-icons img {
+    cursor: pointer;
+}
+.banner-main .left-banner .btns {
+    margin-top: 40px;
+    display: flex;
+}
+.banner-main .left-banner .btns .left-btn {
+    margin-right: 20px;
+}
+.banner-main .left-banner .info {
+    margin-top: 50px;
+    display: inline-flex;
+    padding: 15px 20px;
+    background: #2c2c2c5c;
+    border-radius: 5px;
+}
+
+.banner-main .left-banner .info .box:not(:last-child) {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #959595;
+}
+
+.banner-main .left-banner .info .box .count {
+    font-size: 24px;
+    color: #FD6F00;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.banner-main .left-banner .info .box .value {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.banner-main .right-banner .bg-wrapper {
+    background: #2c2c2c5c;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-left: auto;
+}

@@ -1,0 +1,24 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    z-index: 99999;
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.main-header .left .menu-icon > div {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+.main-header .left .menu-icon {
+    padding: 6px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
