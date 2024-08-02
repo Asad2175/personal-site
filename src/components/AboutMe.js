@@ -3,7 +3,8 @@ import { ABOUT_ME } from '../constants/General'
 import { Button, Para } from '../GenericComponents'
 import '../public/style/AboutMe.css'
 import resume from '../public/files/resume.pdf'
-
+import Skills from './Skills'
+import { SKILLS_LIST } from '../constants/SkillsList'
 
 
 function AboutMe() {
@@ -21,17 +22,17 @@ function AboutMe() {
     <section id="about-me">
         <div className="about-main">
             <h1 className="heading">{ABOUT_ME.heading}</h1>
-            <Para 
+            {/* <Para 
               text={ABOUT_ME.description}
               align="center"
               color="#707070" 
-            />
+            /> */}
             <div className="about-box">
               <div className="row">
-                <div className="col-6">
+                <div className="col-6 d-none d-sm-block">
                   <img src="images/man.png" />
                 </div>
-                <div className="col-6 align-self-center">
+                <div className="col-sm-6 align-self-center">
                   <Para 
                     text={ABOUT_ME.data}
                     align="left"
@@ -46,6 +47,13 @@ function AboutMe() {
                       handleClick={handleDownload}
                     />
                   </div>
+                </div>
+              </div>
+              <div className='skills-main'>
+                <div className='d-flex align-items-center justify-content-center flex-wrap'>
+                  {SKILLS_LIST.map( (t) => (
+                    <Skills value={t} />
+                  ))}
                 </div>
               </div>
             </div>

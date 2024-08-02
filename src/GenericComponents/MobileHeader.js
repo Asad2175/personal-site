@@ -28,7 +28,7 @@ function MobileHeader({logo, NavItems, Button}) {
                 />
             </div>
         </div>
-        <Sidebar />
+        <Sidebar NavItems={NavItems} />
     </>
   )
 }

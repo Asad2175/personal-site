@@ -49,3 +49,44 @@ footer .main-footer .connector-footer .item a {
 footer .main-footer .connector-footer .item a:hover {
     color: #FD6F00;
 }
+@media (max-width: 768px) {
+    footer {
+        padding: 20px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 700px) {
+    footer .main-footer .connector-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .main-footer .connector-footer .item {
+        padding: 0 0px 30px 0;
+        border-bottom: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    footer .main-footer .connector-footer .item:last-child {
+        border-bottom: 1px solid #959595;
+    }
+}
+@media (max-width: 575px) {
+    footer .main-footer .nav-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    a.nav-item {
+        width: 50%;
+        margin-right: 0 !important;
+    }
+    footer .main-footer .social-footer {
+        margin-top: 30px;
+    }
+    footer .main-footer .nav-footer {
+        margin-top: 30px;
+    }
+    footer .main-footer .connector-footer {
+        margin-top: 30px;
+    }
+}

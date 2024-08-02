@@ -1,0 +1,17 @@
+/* .sidebar {
+    background: #000000b3;
+} */
+
+.sidebar .side-menu a.nav-item {
+    margin-right: 0;
+    display: block;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar .side-menu a.nav-item:hover,
+.sidebar .side-menu a.nav-item.active {
+    background: #FD6F00;
+    color: #fff;
+}

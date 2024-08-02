@@ -17,11 +17,13 @@ function Services() {
             <div className="boxes">
                 <div className="row box">
                     {SERVICES_LIST.map( (item) => (
+                      <div className="col-sm-6 col-lg-4" key={item.title}>
                         <ServiceBox
                             img={item.img}
                             title={item.title}
                             description={item.description}
                         />
+                      </div>
                     ))}
                 </div>
             </div>

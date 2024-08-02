@@ -1,16 +1,20 @@
 .banner-main {
     display: flex;
 }
+
 .banner-main .left-banner {
     flex-basis: 50%;
     padding: 100px 0;
+    display: block !important;
 }
+
 .banner-main .right-banner {
     flex-basis: 50%;
     align-self: flex-end;
     position: relative;
     text-align: right;
 }
+
 /* .banner-main .right-banner::before {
 content: '';
 display: inline-block;
@@ -25,20 +29,24 @@ right: 0;
 z-index: 111;
 } */
 .banner-main .right-banner img {
-    margin-right: 40px;
+    /* margin-right: 40px; */
     position: relative;
+    max-height: 700px;
 }
+
 .banner-main .left-banner .title {
     color: #707070;
     font-size: 24px;
     font-weight: 500;
 }
+
 .banner-main .left-banner .name {
     color: #959595;
     font-weight: 900;
     margin-top: 5px;
     font-size: 28px;
 }
+
 .banner-main .left-banner .designation {
     font-weight: 900;
     margin-top: 14px;
@@ -49,19 +57,24 @@ z-index: 111;
     background-clip: text;
     text-fill-color: transparent;
 }
+
 .banner-main .left-banner .social-icons {
     margin-top: 30px;
 }
+
 .banner-main .left-banner .social-icons img {
     cursor: pointer;
 }
+
 .banner-main .left-banner .btns {
     margin-top: 40px;
     display: flex;
 }
+
 .banner-main .left-banner .btns .left-btn {
     margin-right: 20px;
 }
+
 .banner-main .left-banner .info {
     margin-top: 50px;
     display: inline-flex;
@@ -88,10 +101,55 @@ z-index: 111;
     color: #fff;
     font-weight: 700;
 }
+
 .banner-main .right-banner .bg-wrapper {
     background: #2c2c2c5c;
     width: 600px;
     height: 600px;
     border-radius: 50%;
     margin-left: auto;
+}
+
+@media (max-width: 1400px) {
+    .banner-main .left-banner .designation {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .banner-main .right-banner img {
+        /* margin-right: 0; */
+        width: auto;
+        max-height: 600px;
+    }
+
+    .banner-main .left-banner .designation {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner-main .right-banner {
+        align-self: flex-start;
+    }
+
+    .banner-main .left-banner {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    .banner-main .right-banner img {
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .banner-main .right-banner {
+        display: none;
+    }
+
+    .banner-main .left-banner {
+        flex-basis: 100%;
+    }
 }

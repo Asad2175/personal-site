@@ -6,3 +6,28 @@ body {
   font-family: "Lato", sans-serif !important;
   font-style: normal;
 }
+/* width */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: rgb(253, 111, 0);
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(253, 111, 0);
+}
+@media (max-width: 992px) {
+  .container {
+      max-width: 100% !important;
+      padding: 0 20px !important;
+  }
+}

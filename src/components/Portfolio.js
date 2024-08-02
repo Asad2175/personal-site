@@ -34,7 +34,7 @@ function Portfolio() {
                 <div className="tab-content">
                     <div className="row">
                         {portfolios.length > 0 ? portfolios.map( (item) => (
-                            <div className="col-4 box-port">
+                            <div className="col-sm-6 col-lg-4 box-port" key={item.name}>
                                 <PortfolioBox
                                     img={item.img}
                                     name={item.name}

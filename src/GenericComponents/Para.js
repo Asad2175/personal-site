@@ -4,7 +4,7 @@ function para({text, align, color}) {
     return (
         <p 
             style={{
-                'text-align': align,
+                'textAlign': align,
                 'color': color
             }}>
             {text}

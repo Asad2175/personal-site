@@ -1,7 +1,7 @@
 const NAME = 'Muhammad Asad',
-    DESIGNATION = 'Frontend Developer',
-    TOTAL_EXPERIENCE = '5+',
-    PROJECTS_DONE = '6',
+    DESIGNATION = 'Angular Developer',
+    TOTAL_EXPERIENCE = '6+',
+    PROJECTS_DONE = '6+',
     EMAIL = 'muhammadasad2300@gmail.com',
     PHONE_NO = '(+60) 11 3612 2193',
     WHATSAPP_NO = '601136122193';
@@ -22,7 +22,7 @@ const ABOUT_ME = {
 };
 
 const PORTFOLIO = {
-    heading: "Services",
+    heading: "Portfolio",
     description: "Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam"
 };
 

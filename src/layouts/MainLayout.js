@@ -23,7 +23,6 @@ function MainLayout() {
         }
       });
       setId(currentSectionId);
-      console.log('Current Section ID:', currentSectionId);
     });
   })
   return (

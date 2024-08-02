@@ -11,3 +11,19 @@
 .about-main .about-box .download-btn {
     margin-top: 30px;
 }
+.skills-main {
+    margin-top: 50px;
+}
+@media (max-width: 768px) {
+    .about-main {
+        margin-top: 30px;
+    }
+    .about-main .about-box img {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .about-main .about-box .download-btn {
+        text-align: center;
+    }
+}

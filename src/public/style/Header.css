@@ -22,3 +22,8 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+@media (max-height: 1024px) {
+    .main-header {
+        padding: 25px 0;
+    }
+}
