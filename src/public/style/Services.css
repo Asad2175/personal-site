@@ -10,6 +10,7 @@
 }
 .section-main .boxes .box > div {
     padding-bottom: 25px;
+    display: flex;
 }
 .section-main .boxes .box > div .inner {
     padding: 30px;

@@ -2,22 +2,12 @@ import React from 'react'
 import { ABOUT_ME } from '../constants/General'
 import { Button, Para } from '../GenericComponents'
 import '../public/style/AboutMe.css'
-import resume from '../public/files/resume.pdf'
 import Skills from './Skills'
 import { SKILLS_LIST } from '../constants/SkillsList'
+import { handleResumeDownload } from '../Services/GenericFunctions'
 
 
 function AboutMe() {
-  const handleDownload = () => {
-    const pdfUrl = resume; // URL relative to the public directory
-
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.download = 'Resume.pdf'; // Optional: Set the default file name
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   return (
     <section id="about-me">
         <div className="about-main">
@@ -44,7 +34,7 @@ function AboutMe() {
                       color='#ffffff'
                       bgColor='#FD6F00'
                       border='#FD6F00'
-                      handleClick={handleDownload}
+                      handleClick={handleResumeDownload}
                     />
                   </div>
                 </div>

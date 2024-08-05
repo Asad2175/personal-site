@@ -1,27 +1,11 @@
 import React from 'react'
 import { Button, SocialIcons } from '../GenericComponents'
 import '../public/style/Banner.css'
-import resume from '../public/files/resume.pdf'
-import { BUTTONS, DESIGNATION, NAME, PROJECTS_DONE, TOTAL_EXPERIENCE, WHATSAPP_NO } from '../constants/General';
+import banner from '../public/images/banner.png'
+import {handleResumeDownload, handleWhatsapp} from '../Services/GenericFunctions'
+import { BUTTONS, DESIGNATION, NAME, PROJECTS_DONE, TOTAL_EXPERIENCE } from '../constants/General';
 
 function Banner() {
-  const handleDownload = () => {
-    const pdfUrl = resume; // URL relative to the public directory
-
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.download = 'Resume.pdf'; // Optional: Set the default file name
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-  const handleWhatsapp = () => {
-    var phoneNumber = WHATSAPP_NO; // Note: No need for the plus sign
-    var message = 'Hello! ....';
-    var whatsappURL = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
-    
-    window.open(whatsappURL, '_blank')
-  };
   return (
     <section id="home">
       <div className="banner-main">
@@ -48,7 +32,7 @@ function Banner() {
                 color='#959595'
                 bgColor='transparent'
                 border='#959595'
-                handleClick={handleDownload}
+                handleClick={handleResumeDownload}
               />
             </div> 
           </div>
@@ -64,7 +48,7 @@ function Banner() {
           </div>
         </div>
         <div className="right-banner">
-          <img src="images/man.png" />
+          <img src={banner} />
         </div>
       </div>
     </section>

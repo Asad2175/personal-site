@@ -1,6 +1,5 @@
 import React from 'react'
 import '../public/style/Skills.css'
-import { SKILLS_LIST } from '../constants/SkillsList'
 
 function Skills({value}) {
     return(

@@ -1,5 +1,6 @@
 import React from 'react'
 import { BUTTONS } from '../constants/General'
+import { handleWhatsapp } from '../Services/GenericFunctions'
 
 function WebHeader({logo, NavItems, Button}) {
   return (
@@ -16,6 +17,7 @@ function WebHeader({logo, NavItems, Button}) {
             color='#ffffff'
             bgColor='#FD6F00'
             border='#FD6F00'
+            handleClick={handleWhatsapp}
         />
         </div>
     </div>

@@ -3,35 +3,22 @@
 }
 
 .banner-main .left-banner {
-    flex-basis: 50%;
+    flex-basis: 60%;
     padding: 100px 0;
     display: block !important;
 }
 
 .banner-main .right-banner {
-    flex-basis: 50%;
+    flex-basis: 40%;
     align-self: flex-end;
     position: relative;
     text-align: right;
 }
-
-/* .banner-main .right-banner::before {
-content: '';
-display: inline-block;
-background: #2c2c2c5c;
-width: 560px;
-height: 560px;
-border-radius: 50%;
-margin-left: auto;
-position: absolute;
-bottom: 0;
-right: 0;
-z-index: 111;
-} */
 .banner-main .right-banner img {
     /* margin-right: 40px; */
     position: relative;
     max-height: 700px;
+    min-height: 700px;
 }
 
 .banner-main .left-banner .title {

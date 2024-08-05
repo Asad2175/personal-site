@@ -5,7 +5,7 @@ export const SKILLS_LIST = [
     },
     {
         title: 'CSS',
-        experience: '80%'
+        experience: '100%'
     },
     {
         title: 'Bootstrap',
@@ -14,5 +14,13 @@ export const SKILLS_LIST = [
     {
         title: 'JS',
         experience: '70%'
+    },
+    {
+        title: 'TS',
+        experience: '75%'
+    },
+    {
+        title: 'Angular',
+        experience: '95%'
     }
 ]

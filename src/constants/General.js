@@ -1,5 +1,5 @@
 const NAME = 'Muhammad Asad',
-    DESIGNATION = 'Angular Developer',
+    DESIGNATION = 'Sr. Angular Developer',
     TOTAL_EXPERIENCE = '6+',
     PROJECTS_DONE = '6+',
     EMAIL = 'muhammadasad2300@gmail.com',
@@ -17,7 +17,6 @@ const SERVICES = {
 
 const ABOUT_ME = {
     heading: "About Me",
-    description: "Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam",
     data: "A software engineer, the modern-day architect of digital realms, navigates the ethereal landscapes of code, sculpting intangible structures that shape our technological world. With fingers poised over keyboards like virtuoso pianists, they compose symphonies of logic, their minds a labyrinth of algorithms and solutions.Their canvas is a screen, a vast expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications. Each keystroke is a brushstroke, crafting intricate architectures and breathing life into innovative designs.In this digital atelier, they don the mantle of problem solvers, confronting bugs and glitches like valiant knights in an ever-evolving quest for perfection. Debugging becomes a noble pursuit, unraveling the mysteries hidden within the tangled webs of code. designs.In this digital atelier."
 };
 
